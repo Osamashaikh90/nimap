@@ -19,7 +19,7 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
 import SideBar from './components/SideBar';
-import MobileSideBar from './components/MobileSideBAr';
+import MobileSideBar from './components/MobileSideBar';
 import Navbar from './components/Navbar';
 import { useSelector } from 'react-redux';
 
