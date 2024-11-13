@@ -11,9 +11,9 @@ const Poster = ({details}) => {
     <>
         <div className='grid grid-cols-1 lg:grid-cols-2  rounded-lg bg-[#020B17] '>
         {/* info */}
-        <div className='flex flex-col gap-5 p-5 lg:flex-row'>
+        <div className='flex flex-col gap-5 p-5 '>
           {/* upper */}
-          <div className='flex flex-col gap-4'>
+          <div className='flex flex-col gap-4 lg:flex-row'>
             <img src={BaseUrl + details.poster_path} alt={details.title} className="rounded h-72 lg:h-40"/>
             <div className="flex flex-col gap-3">
                 <h1 className="text-2xl font-medium">{details.title}</h1>
